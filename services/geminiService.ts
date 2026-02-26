@@ -1,14 +1,24 @@
 import { GoogleGenAI } from "@google/genai";
 import { AiAdviceResponse } from "../types";
 
-const apiKey = process.env.API_KEY || ''; 
 // Note: In a real prod environment, ensure this is handled via a backend proxy to hide the key, 
 // or use allow-listed domains if using client-side calls. 
 // Since this is a client-side demo, we assume the environment variable or a safe context.
 
-const ai = new GoogleGenAI({ apiKey });
+// Lazy singleton — only created when someone actually uses the KI-Coach.
+// Calling `new GoogleGenAI()` at module level crashes the whole app on Vercel
+// when no API key is configured (white page).
+let _ai: GoogleGenAI | null = null;
+function getAI(): GoogleGenAI {
+  const apiKey = process.env.API_KEY || '';
+  if (!_ai) {
+    _ai = new GoogleGenAI({ apiKey });
+  }
+  return _ai;
+}
 
 export const getCareerAdvice = async (userProfile: string): Promise<AiAdviceResponse> => {
+  const apiKey = process.env.API_KEY || '';
   if (!apiKey) {
     // Fallback if no key is present for demo purposes
     return {
@@ -17,6 +27,8 @@ export const getCareerAdvice = async (userProfile: string): Promise<AiAdviceResp
       reasoning: "Ohne API-Schlüssel zeigen wir Standardvorschläge an. Die Gastronomie bietet für jeden etwas!"
     };
   }
+
+  const ai = getAI();
 
   try {
     const prompt = `
