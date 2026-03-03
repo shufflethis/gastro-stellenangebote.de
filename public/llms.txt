@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# gastro-stellenangebote.de - Gastro Stellenangebote
+
+> gastro-stellenangebote.de ist ein spezialisiertes Jobportal fuer Gastro-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Gastro
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://gastro-stellenangebote.de
+- Arbeitgeber-Kontakt: https://gastro-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://gastro-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Gastro-Stellenangebote
+- Karriere-Ratgeber fuer Gastro
+- Gehaltsvergleiche und Brancheninformationen
