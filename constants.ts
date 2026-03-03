@@ -160,24 +160,24 @@ export const IMPRESSUM_TEXT = `
 Angaben gemäß § 5 TMG
 
 Gastro Stellenangebote GmbH
-Musterstraße 123
-10115 Berlin
+Schliemannstraße 23
+10437 Berlin
 
 Vertreten durch:
-Max Mustermann
+Thomas Sander
 
 Kontakt:
 Telefon: +49 (0) 123 44 55 66
-E-Mail: kontakt@gastro-stellenangebote.de
+E-Mail: info@socialmediaventure.com
 
 Umsatzsteuer-ID:
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-DE123456789
+DE298885799
 
 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Max Mustermann
-Musterstraße 123
-10115 Berlin
+Thomas Sander
+Schliemannstraße 23
+10437 Berlin
 
 Haftungsausschluss (Disclaimer):
 
