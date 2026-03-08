@@ -4,6 +4,116 @@ import { JobCategory, JobListing, ContentSectionData, FAQItem, CareerPath } from
 export const FEATURED_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'DSR Hotel Holding GmbH',
+    location: 'Wernigerode',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '2',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'DSR Hotel Holding GmbH',
+    location: 'Seebad Bansin',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '3',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'DSR Hotel Holding GmbH',
+    location: 'Rostock',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '4',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'DSR Hotel Holding GmbH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '5',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Bäderbetriebsgesellschaft Oldenburg mbH',
+    location: 'Oldenburg (Oldb)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '6',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Salus Altmark Holding gGmbH',
+    location: 'Stendal',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '7',
+    title: 'Mitarbeiter (m/w/d) Gastronomie',
+    employer: 'Bruno Leo',
+    location: 'Dillenburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Gastronomie',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '8',
+    title: 'Teamleitung Gastronomie (m/w/d)',
+    employer: 'bewaffel dich betriebsgesellschaft mbH',
+    location: 'Halle (Saale)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Teamleitung Gastronomie (m/w/d)',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft Gastronomie (m/w/d)',
+    employer: 'Seitenbacher KG Naturkost',
+    location: 'Buchen (Odenwald)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie (m/w/d)',
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '10',
+    title: 'Servicekraft Gastronomie',
+    employer: 'Rene Reuter Reuters Kitchen Catering & Service',
+    location: 'Düsseldorf',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie',
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '11',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'Zum Oberjäger Hotel Betrieb s GmbH',
+    location: 'Lackenbach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-04'
+  },
+  {
+    id: '12',
     title: 'Lagermitarbeiter / Kommissionierer als Vorarbeiter Lager / Logistik (m/w/d)',
     employer: 'CEVA Logistics GmbH',
     location: 'Greven/Westfalen',
@@ -13,7 +123,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '2',
+    id: '13',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     employer: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Löhne',
@@ -23,7 +133,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '3',
+    id: '14',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     employer: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Espelkamp',
@@ -33,7 +143,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '4',
+    id: '15',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     employer: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Lübbecke',
@@ -43,7 +153,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '5',
+    id: '16',
     title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
     employer: 'Kinder- und Jugendhilfe Weidenkorb',
     location: 'Hüllhorst',
@@ -53,7 +163,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '6',
+    id: '17',
     title: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
     employer: 'DELABO.GROUPSofort-Bewerbung',
     location: 'Klein Rönnau',
@@ -63,7 +173,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '7',
+    id: '18',
     title: 'Mitarbeiter Gastronomie (m/w/d)',
     employer: 'mömax Deutschland GmbH',
     location: 'Schwäbisch Gmünd',
@@ -73,7 +183,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '8',
+    id: '19',
     title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
     employer: 'Theater Lübeck gGmbH',
     location: 'Lübeck',
@@ -83,7 +193,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '9',
+    id: '20',
     title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
     employer: 'Restaurant in der Rommelmühle',
     location: 'Bietigheim-Bissingen',
@@ -93,7 +203,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '10',
+    id: '21',
     title: 'Fachkraft Gastronomie ? (w/m/d)',
     employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -103,7 +213,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '11',
+    id: '22',
     title: 'Servicekraft ? (w/m/d) - Gastronomie',
     employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -113,7 +223,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '12',
+    id: '23',
     title: 'Studentenjob ? (w/m/d) - Gastronomie',
     employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
     location: 'Leipzig',
@@ -123,7 +233,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '13',
+    id: '24',
     title: 'Servicekraft ? (w/m/d) - Gastronomie',
     employer: 'BUHL Personal GmbH - Niederlassung Dortmund',
     location: 'Dortmund',
@@ -133,7 +243,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '14',
+    id: '25',
     title: 'Studentenjob ? (w/m/d) - Gastronomie',
     employer: 'BUHL Personal GmbH - Niederlassung Kassel',
     location: 'Kassel, Hessen',
@@ -141,116 +251,6 @@ export const FEATURED_JOBS: JobListing[] = [
     category: JobCategory.OTHER,
     description: 'Studentenjob ? (w/m/d) - Gastronomie',
     postedDate: '2026-03-04'
-  },
-  {
-    id: '15',
-    title: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
-    employer: 'tempster GmbH',
-    location: 'Leonberg, Württemberg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter (m/w/d) Gastronomie in Leonberg',
-    postedDate: '2026-03-03'
-  },
-  {
-    id: '16',
-    title: 'Servicekräfte in der Gastronomie',
-    employer: 'FM Culinary GmbH',
-    location: 'Bad Schönborn',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekräfte in der Gastronomie',
-    postedDate: '2026-03-02'
-  },
-  {
-    id: '17',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    employer: 'Stiftl Gastronomie Unternehmensgruppe',
-    location: 'München',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    postedDate: '2026-03-02'
-  },
-  {
-    id: '18',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe',
-    employer: 'La Strada Robert Yaldiz Gastronomie GmbH',
-    location: 'Herzogenburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe',
-    postedDate: '2026-03-02'
-  },
-  {
-    id: '19',
-    title: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
-    employer: 'ARWA Personaldienstleistungen GmbH',
-    location: 'Dresden',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft (m/w/d) Gastronomie & Hotellerie',
-    postedDate: '2026-03-02'
-  },
-  {
-    id: '20',
-    title: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
-    employer: 'ABV Braunschweig/MD e.V. - Lohn',
-    location: 'Braunschweig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie Schwerpunkt Systemgastronomie',
-    postedDate: '2026-03-02'
-  },
-  {
-    id: '21',
-    title: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
-    employer: 'BESTSTEPS by Bernd Konschak',
-    location: 'Werl',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter (m/w/d) in der Gastronomie',
-    postedDate: '2026-03-01'
-  },
-  {
-    id: '22',
-    title: 'Servicekraft-Gastronomie (m/w/d)',
-    employer: 'Hotel-Restaurant Die kleine Blume GmbH',
-    location: 'Erfweiler',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft-Gastronomie (m/w/d)',
-    postedDate: '2026-03-01'
-  },
-  {
-    id: '23',
-    title: 'Gastronomie Helfer/in',
-    employer: 'Cafe-Bistro "Zum Vasi"',
-    location: 'St. Blasien',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Gastronomie Helfer/in',
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '24',
-    title: 'Servicemitarbeiter für die Gastronomie (m/w/d)',
-    employer: 'Allianz Deutschland AG',
-    location: 'Stuttgart',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter für die Gastronomie (m/w/d)',
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '25',
-    title: 'Fachkraft - Gastronomie',
-    employer: 'Janus RBS Dienstleistungs GmbH',
-    location: 'Reichenau an der Rax',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    postedDate: '2026-02-26'
   }
 ];
 

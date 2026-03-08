@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Thomas Sander",
+  "url": "https://gastro-stellenangebote.de/autor/thomas-sander",
+  "jobTitle": "Gruender & Geschaeftsfuehrer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "gastro-stellenangebote.de",
+    "url": "https://gastro-stellenangebote.de"
+  },
+  "description": "Gruender von gastro-stellenangebote.de - spezialisiertes Jobportal fuer Gastro-Stellenangebote.",
+  "knowsAbout": [
+    "Gastro",
+    "Personalwesen",
+    "Recruiting",
+    "Jobportale"
+  ]
+}
