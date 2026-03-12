@@ -9,12 +9,17 @@ import { AiAdviceResponse } from "../types";
 // Calling `new GoogleGenAI()` at module level crashes the whole app on Vercel
 // when no API key is configured (white page).
 let _ai: GoogleGenAI | null = null;
-function getAI(): GoogleGenAI {
-  const apiKey = process.env.API_KEY || '';
-  if (!_ai) {
-    _ai = new GoogleGenAI({ apiKey });
+function getAI(): GoogleGenAI | null {
+  try {
+    const apiKey = process.env.API_KEY || '';
+    if (!_ai) {
+      _ai = new GoogleGenAI({ apiKey });
+    }
+    return _ai;
+  } catch (error) {
+    console.error("Failed to initialize GoogleGenAI:", error);
+    return null;
   }
-  return _ai;
 }
 
 export const getCareerAdvice = async (userProfile: string): Promise<AiAdviceResponse> => {
@@ -22,13 +27,20 @@ export const getCareerAdvice = async (userProfile: string): Promise<AiAdviceResp
   if (!apiKey) {
     // Fallback if no key is present for demo purposes
     return {
-      suggestion: "Bitte konfigurieren Sie Ihren API-Schlüssel für personalisierte Ratschläge.",
+      suggestion: "Chat-Funktion derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.",
       matchedRoles: ["Koch", "Servicekraft"],
-      reasoning: "Ohne API-Schlüssel zeigen wir Standardvorschläge an. Die Gastronomie bietet für jeden etwas!"
+      reasoning: "Die Gastronomie bietet für jeden etwas!"
     };
   }
 
   const ai = getAI();
+  if (!ai) {
+    return {
+      suggestion: "Der KI-Assistent ist derzeit nicht verfügbar. Bitte versuchen Sie es später erneut.",
+      matchedRoles: [],
+      reasoning: "Der KI-Dienst konnte nicht initialisiert werden."
+    };
+  }
 
   try {
     const prompt = `
