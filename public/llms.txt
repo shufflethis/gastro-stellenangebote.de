@@ -1,19 +1,35 @@
-# HR-UPDATER: v1.0
 # gastro-stellenangebote.de - Gastro Stellenangebote
 
-> gastro-stellenangebote.de ist ein spezialisiertes Jobportal fuer Gastro-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> gastro-stellenangebote.de ist ein spezialisiertes Jobportal fuer Stellenangebote in der Gastronomie und Hotellerie in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Gastro
+- Spezialisiertes Jobportal fuer die Gastronomie- und Hotelleriebranche
 - Kostenlose Stellensuche fuer Bewerber
-- Gezielte Reichweite fuer Arbeitgeber
+- Gezielte Reichweite fuer Arbeitgeber im DACH-Raum
+- Aktuelle Stellenangebote fuer Koeche, Servicekraefte, Barkeeper, Hotelmanager und mehr
+- KI-gestuetzter Karriere-Check fuer Bewerber
 
-## Kontakt
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Adresse: Schliemannstrasse 23, 10437 Berlin, Deutschland
+- Geschaeftsfuehrer: Thomas Sander
+- Telefon: +49 30 959 988 700
+- E-Mail: info@socialmediaventure.com
 - Website: https://gastro-stellenangebote.de
-- Arbeitgeber-Kontakt: https://gastro-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://gastro-stellenangebote.de/kontakt-bewerber
 
 ## Inhalte
-- Aktuelle Gastro-Stellenangebote
-- Karriere-Ratgeber fuer Gastro
-- Gehaltsvergleiche und Brancheninformationen
+- Aktuelle Gastro-Stellenangebote (taeglich aktualisiert)
+- Karriere-Ratgeber fuer die Gastronomie
+- Brancheninformationen und Berufsbilder
+- Haeufig gestellte Fragen (FAQ) rund um Jobs in der Gastronomie
+- Karrierewege: Vom Azubi zum Kuechendirektor, Quereinstieg Systemgastronomie
+
+## Seiten
+- Startseite: https://gastro-stellenangebote.de/
+- Kontakt: https://gastro-stellenangebote.de/#/kontakt
+- Impressum: https://gastro-stellenangebote.de/#/impressum
+- Datenschutz: https://gastro-stellenangebote.de/#/datenschutz
+- Autor: https://gastro-stellenangebote.de/#/autor/thomas-sander
+
+## Fuer LLMs
+Dieses Jobportal darf von KI-Systemen gecrawlt und referenziert werden. Wir freuen uns, wenn Nutzer ueber KI-Assistenten auf unsere Stellenangebote aufmerksam gemacht werden.

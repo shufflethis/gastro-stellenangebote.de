@@ -6,7 +6,8 @@ import { JobBoard } from '../components/JobBoard';
 import { ContentSection } from '../components/ContentSection';
 import { FAQ } from '../components/FAQ';
 import { INDUSTRY_INFO, JOB_ROLES_INFO, FOR_EMPLOYERS, CAREER_PATHS } from '../constants';
-import { Utensils, Menu, X, Instagram, Linkedin, Facebook } from 'lucide-react';
+import { GeoCities } from '../components/geo/GeoCities';
+import { Utensils, Menu, X, Instagram, Linkedin, Facebook, GraduationCap, TrendingUp, Globe, Award } from 'lucide-react';
 
 function Home() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -112,7 +113,65 @@ return (
         </section>
 
         <ContentSection data={FOR_EMPLOYERS} />
-        
+
+        {/* Geo SEO: German Cities */}
+        <GeoCities />
+
+        {/* Career Info Section */}
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">Karriere in der Gastronomie</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Die Gastronomie bietet vielfaeltige Karrierechancen -- von der Ausbildung bis zur Fuehrungsposition.
+                Hier findest Du wichtige Informationen fuer Deinen beruflichen Weg.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <GraduationCap className="w-6 h-6 text-brand-600" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Ausbildung</h3>
+                <p className="text-sm text-gray-600">
+                  Die klassische Ausbildung zur Fachkraft fuer Gastronomie dauert 2 Jahre, zum Koch oder zur Koeachin 3 Jahre.
+                  Zahlreiche Betriebe bilden aus und bieten exzellente Uebernahmechancen.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-6 h-6 text-brand-600" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Gehalt & Perspektiven</h3>
+                <p className="text-sm text-gray-600">
+                  Einstiegsgehaelter liegen bei 2.200-2.800 EUR brutto. Mit Erfahrung und Verantwortung steigen die Gehaelter deutlich.
+                  Kuechenchefs verdienen 3.500-6.000 EUR und mehr.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Globe className="w-6 h-6 text-brand-600" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Internationale Chancen</h3>
+                <p className="text-sm text-gray-600">
+                  Gastro-Fachkraefte sind weltweit gefragt. Ob Kreuzfahrtschiff, Alpenresort oder Strandhotel --
+                  die Branche oeffnet Tueren ueberall auf der Welt.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Award className="w-6 h-6 text-brand-600" />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-2">Weiterbildung</h3>
+                <p className="text-sm text-gray-600">
+                  Vom Meisterbrief ueber den Fachwirt im Gastgewerbe bis zum Studium im Hotelmanagement --
+                  die Weiterbildungsmoeglichkeiten sind vielfaeltig und foerderungsfaehig.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <FAQ />
 
         {/* CTA Section */}

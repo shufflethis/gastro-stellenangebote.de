@@ -354,15 +354,15 @@ export const CAREER_PATHS: CareerPath[] = [
 export const IMPRESSUM_TEXT = `
 Angaben gemäß § 5 TMG
 
-Gastro Stellenangebote GmbH
+Social Media Venture GmbH
 Schliemannstraße 23
 10437 Berlin
 
 Vertreten durch:
-Thomas Sander
+Thomas Sander (Geschäftsführer)
 
 Kontakt:
-Telefon: +49 (0) 123 44 55 66
+Telefon: +49 30 959 988 700
 E-Mail: info@socialmediaventure.com
 
 Umsatzsteuer-ID:
