@@ -4,6 +4,186 @@ import { JobCategory, JobListing, ContentSectionData, FAQItem, CareerPath } from
 export const FEATURED_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    employer: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    employer: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    employer: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    employer: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '7',
+    title: 'Fachkraft für Gastronomie (m/w/d)',
+    employer: 'NGD Norddeutsche Gesellschaft für Diakonie e. V.',
+    location: 'Flensburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie (m/w/d)',
+    postedDate: '2026-03-13'
+  },
+  {
+    id: '8',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Volkswagen',
+    location: 'Wolfsburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-13'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Hofmeister',
+    location: 'Ehingen (Donau)',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-13'
+  },
+  {
+    id: '10',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Hofmeister',
+    location: 'Bietigheim-Bissingen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-13'
+  },
+  {
+    id: '11',
+    title: 'Fachkraft für Gastronomie',
+    employer: 'Hofmeister',
+    location: 'Sindelfingen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie',
+    postedDate: '2026-03-13'
+  },
+  {
+    id: '12',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'K.u.K. Hofzuckerbäcker Ch.Demel\'s Söhne GmbH',
+    location: 'Wien,Innere Stadt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-12'
+  },
+  {
+    id: '13',
+    title: 'Servicekraft (m/w/d) in der Gastronomie',
+    employer: 'AMEOS Pflegegesellschaft Südholstein mbH & Co. KG',
+    location: 'Ratzeburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft (m/w/d) in der Gastronomie',
+    postedDate: '2026-03-11'
+  },
+  {
+    id: '14',
+    title: 'Fachkraft- Gastronomie',
+    employer: 'MEDIAN Service IV GmbH',
+    location: 'Bad Oeynhausen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft- Gastronomie',
+    postedDate: '2026-03-10'
+  },
+  {
+    id: '15',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'Emrich Christopher',
+    location: 'Gallspach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-10'
+  },
+  {
+    id: '16',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'Emrich Christopher',
+    location: 'Offenhausen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-10'
+  },
+  {
+    id: '17',
+    title: 'Werkstudent Gastronomie (m/w/d)',
+    employer: 'Schwarz Corporate Solutions',
+    location: 'Neckarsulm',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Werkstudent Gastronomie (m/w/d)',
+    postedDate: '2026-03-10'
+  },
+  {
+    id: '18',
+    title: 'Fachkraft Gastronomie',
+    employer: 'HAFFHUS GmbH',
+    location: 'Ueckermünde',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie',
+    postedDate: '2026-03-09'
+  },
+  {
+    id: '19',
     title: 'Fachkraft für Gastronomie',
     employer: 'DSR Hotel Holding GmbH',
     location: 'Wernigerode',
@@ -13,7 +193,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '2',
+    id: '20',
     title: 'Fachkraft für Gastronomie',
     employer: 'DSR Hotel Holding GmbH',
     location: 'Seebad Bansin',
@@ -23,7 +203,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '3',
+    id: '21',
     title: 'Fachkraft für Gastronomie',
     employer: 'DSR Hotel Holding GmbH',
     location: 'Rostock',
@@ -33,7 +213,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '4',
+    id: '22',
     title: 'Fachkraft für Gastronomie',
     employer: 'DSR Hotel Holding GmbH',
     location: 'Lübeck',
@@ -43,7 +223,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '5',
+    id: '23',
     title: 'Fachkraft für Gastronomie',
     employer: 'Bäderbetriebsgesellschaft Oldenburg mbH',
     location: 'Oldenburg (Oldb)',
@@ -53,7 +233,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '6',
+    id: '24',
     title: 'Fachkraft für Gastronomie',
     employer: 'Salus Altmark Holding gGmbH',
     location: 'Stendal',
@@ -63,7 +243,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '7',
+    id: '25',
     title: 'Mitarbeiter (m/w/d) Gastronomie',
     employer: 'Bruno Leo',
     location: 'Dillenburg',
@@ -71,186 +251,6 @@ export const FEATURED_JOBS: JobListing[] = [
     category: JobCategory.OTHER,
     description: 'Mitarbeiter (m/w/d) Gastronomie',
     postedDate: '2026-03-05'
-  },
-  {
-    id: '8',
-    title: 'Teamleitung Gastronomie (m/w/d)',
-    employer: 'bewaffel dich betriebsgesellschaft mbH',
-    location: 'Halle (Saale)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Teamleitung Gastronomie (m/w/d)',
-    postedDate: '2026-03-05'
-  },
-  {
-    id: '9',
-    title: 'Fachkraft Gastronomie (m/w/d)',
-    employer: 'Seitenbacher KG Naturkost',
-    location: 'Buchen (Odenwald)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft Gastronomie (m/w/d)',
-    postedDate: '2026-03-05'
-  },
-  {
-    id: '10',
-    title: 'Servicekraft Gastronomie',
-    employer: 'Rene Reuter Reuters Kitchen Catering & Service',
-    location: 'Düsseldorf',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft Gastronomie',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '11',
-    title: 'Fachkraft - Gastronomie',
-    employer: 'Zum Oberjäger Hotel Betrieb s GmbH',
-    location: 'Lackenbach',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '12',
-    title: 'Lagermitarbeiter / Kommissionierer als Vorarbeiter Lager / Logistik (m/w/d)',
-    employer: 'CEVA Logistics GmbH',
-    location: 'Greven/Westfalen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Lagermitarbeiter / Kommissionierer als Vorarbeiter Lager / Logistik (m/w/d)',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '13',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    employer: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Löhne',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '14',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    employer: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Espelkamp',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '15',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    employer: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Lübbecke',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '16',
-    title: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    employer: 'Kinder- und Jugendhilfe Weidenkorb',
-    location: 'Hüllhorst',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Hauswirtschaftliche Leitung (m/w/d) für unser Kinderhaus in Teil- oder Vollzeit',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '17',
-    title: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
-    employer: 'DELABO.GROUPSofort-Bewerbung',
-    location: 'Klein Rönnau',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Zahntechniker (m/w/d) für den Bereich CAD / CAM',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '18',
-    title: 'Mitarbeiter Gastronomie (m/w/d)',
-    employer: 'mömax Deutschland GmbH',
-    location: 'Schwäbisch Gmünd',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter Gastronomie (m/w/d)',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '19',
-    title: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
-    employer: 'Theater Lübeck gGmbH',
-    location: 'Lübeck',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter für die Gastronomie (m/w/d) *Minijob*',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '20',
-    title: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    employer: 'Restaurant in der Rommelmühle',
-    location: 'Bietigheim-Bissingen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft - Gastronomie und Gastgewerbe (m/w/d)',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '21',
-    title: 'Fachkraft Gastronomie ? (w/m/d)',
-    employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft Gastronomie ? (w/m/d)',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '22',
-    title: 'Servicekraft ? (w/m/d) - Gastronomie',
-    employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft ? (w/m/d) - Gastronomie',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '23',
-    title: 'Studentenjob ? (w/m/d) - Gastronomie',
-    employer: 'BUHL Personal GmbH - Niederlassung Leipzig',
-    location: 'Leipzig',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Studentenjob ? (w/m/d) - Gastronomie',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '24',
-    title: 'Servicekraft ? (w/m/d) - Gastronomie',
-    employer: 'BUHL Personal GmbH - Niederlassung Dortmund',
-    location: 'Dortmund',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft ? (w/m/d) - Gastronomie',
-    postedDate: '2026-03-04'
-  },
-  {
-    id: '25',
-    title: 'Studentenjob ? (w/m/d) - Gastronomie',
-    employer: 'BUHL Personal GmbH - Niederlassung Kassel',
-    location: 'Kassel, Hessen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Studentenjob ? (w/m/d) - Gastronomie',
-    postedDate: '2026-03-04'
   }
 ];
 
