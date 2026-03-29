@@ -4,6 +4,206 @@ import { JobCategory, JobListing, ContentSectionData, FAQItem, CareerPath } from
 export const FEATURED_JOBS: JobListing[] = [
   {
     id: '1',
+    title: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    employer: 'Infraserv GmbH & Co. Höchst KG',
+    location: 'Frankfurt am Main',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektrotechniker EMSR-Technik (w/m/d)',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '2',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    employer: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Langenhagen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '3',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    employer: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Bochum',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '4',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    employer: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Ober-Olm',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '5',
+    title: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    employer: 'Berufsgenossenschaft Rohstoffe und chemische Industrie (BG RCI)',
+    location: 'Heidelberg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Referent (m/w/d) befristet als Elternzeitvertretung für zwei Jahre',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '6',
+    title: 'Elektroniker für Betriebstechnik (m/w/d)',
+    employer: 'OFTEC Oberflächentechnik GmbH & Co. KG',
+    location: 'Hagenbach',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektroniker für Betriebstechnik (m/w/d)',
+    postedDate: '2026-03-29'
+  },
+  {
+    id: '7',
+    title: 'Mitarbeiter für Gastronomie',
+    employer: 'Landgasthof Zum Fröhlichen Mann bei Mimmo und Sandra Inh. Cosimo Gallo',
+    location: 'Klingenberg am Main',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter für Gastronomie',
+    postedDate: '2026-03-28'
+  },
+  {
+    id: '8',
+    title: 'Koch',
+    employer: 'Reusenhaus EVENT & ACTION GASTRO',
+    location: 'Greifswald, Hansestadt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Koch',
+    postedDate: '2026-03-28'
+  },
+  {
+    id: '9',
+    title: 'Fachkraft für Gastronomie (m/w/d)',
+    employer: 'Hotel Am See Sommerfeld Betriebs GmbH',
+    location: 'Kremmen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft für Gastronomie (m/w/d)',
+    postedDate: '2026-03-27'
+  },
+  {
+    id: '10',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'Hauserbauer GmbH/Gipflstadl',
+    location: 'Bergl',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-27'
+  },
+  {
+    id: '11',
+    title: 'Servicekraft Gastronomie (m/w/d)',
+    employer: 'Irish Pub Limerick Stefan Skoberla',
+    location: 'Gotha, Thüringen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie (m/w/d)',
+    postedDate: '2026-03-27'
+  },
+  {
+    id: '12',
+    title: 'Gastronomie',
+    employer: 'Gräflicher Park GmbH & Co.KG',
+    location: 'Bad Driburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Gastronomie',
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '13',
+    title: 'Fachkraft Gastronomie',
+    employer: 'Kaiserhof-Fejza GmbH',
+    location: 'Willich',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft Gastronomie',
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '14',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'OBERLAA Konditorei GmbH & Co KG',
+    location: 'Wien,Favoriten',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '15',
+    title: 'Fachkraft - Gastronomie',
+    employer: 'MH-Liegenschaftsbetreuung',
+    location: 'Salzburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Fachkraft - Gastronomie',
+    postedDate: '2026-03-26'
+  },
+  {
+    id: '16',
+    title: 'Mitarbeiter*in Gastronomie (m/w/d)',
+    employer: 'Berliner Fußball-Verband e. V.',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter*in Gastronomie (m/w/d)',
+    postedDate: '2026-03-25'
+  },
+  {
+    id: '17',
+    title: 'Servicekraft Gastronomie (m/w/d)',
+    employer: 'Schützenheim Illertissen',
+    location: 'Illertissen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie (m/w/d)',
+    postedDate: '2026-03-24'
+  },
+  {
+    id: '18',
+    title: 'Mitarbeiter Gastronomie',
+    employer: 'eat. catering & event',
+    location: 'Eberswalde',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter Gastronomie',
+    postedDate: '2026-03-24'
+  },
+  {
+    id: '19',
+    title: 'Gastronomie-Servicekraft (m/w/d)',
+    employer: 'Jöckel Gastronomie GmbH',
+    location: 'Freiensteinau',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Gastronomie-Servicekraft (m/w/d)',
+    postedDate: '2026-03-23'
+  },
+  {
+    id: '20',
+    title: 'Servicekraft Gastronomie (m/w/d)',
+    employer: 'Martin Kölling Die Burg',
+    location: 'Arneburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Servicekraft Gastronomie (m/w/d)',
+    postedDate: '2026-03-23'
+  },
+  {
+    id: '21',
     title: 'Versand- & Lagermitarbeiter (m/w/d) als Shipping & Receiving Clerk',
     employer: 'Elevate Aircraft Seating GmbH',
     location: 'Kaiserslautern',
@@ -13,7 +213,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '2',
+    id: '22',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     employer: 'Serviscope AG',
     location: 'Köln',
@@ -23,7 +223,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '3',
+    id: '23',
     title: 'Mitarbeiter Kundenservice Online Banking (m/w/d)',
     employer: 'Serviscope AG',
     location: 'Troisdorf',
@@ -33,7 +233,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '4',
+    id: '24',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     employer: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Düsseldorf',
@@ -43,7 +243,7 @@ export const FEATURED_JOBS: JobListing[] = [
     postedDate: '2026-03-22'
   },
   {
-    id: '5',
+    id: '25',
     title: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     employer: 'Scheidt & Bachmann Signalling Systems GmbH',
     location: 'Mönchengladbach',
@@ -51,206 +251,6 @@ export const FEATURED_JOBS: JobListing[] = [
     category: JobCategory.OTHER,
     description: 'Elektrotechnikerin / Elektrotechniker / Meisterin / Meister (m/w/d) als Projektmitarbeiter Eisenbahn-Signaltechnik',
     postedDate: '2026-03-22'
-  },
-  {
-    id: '6',
-    title: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
-    employer: 'Gemeinde HudeSofort-Bewerbung',
-    location: 'Hude (Oldb)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Sachbearbeitung Umsatzsteuer und Kommunalabgaben (m/w/d)',
-    postedDate: '2026-03-22'
-  },
-  {
-    id: '7',
-    title: 'Fachkraft - Gastronomie',
-    employer: 'Geier. Die Bäckerei GmbH',
-    location: 'Deutsch-Wagram',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    postedDate: '2026-03-20'
-  },
-  {
-    id: '8',
-    title: 'Fachkraft - Gastronomie',
-    employer: 'Geier. Die Bäckerei GmbH',
-    location: 'Zistersdorf',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    postedDate: '2026-03-20'
-  },
-  {
-    id: '9',
-    title: 'Fachkraft - Gastronomie',
-    employer: 'Gerstner Exhibition Congress Catering Messe Wien',
-    location: 'Wien,Leopoldstadt',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft - Gastronomie',
-    postedDate: '2026-03-20'
-  },
-  {
-    id: '10',
-    title: 'Servicemitarbeiter in der Gastronomie (m/w/d)',
-    employer: 'Weingut Holler',
-    location: 'Hösbach',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicemitarbeiter in der Gastronomie (m/w/d)',
-    postedDate: '2026-03-20'
-  },
-  {
-    id: '11',
-    title: 'Servicekraft in der Gastronomie',
-    employer: 'Jonas Jensen',
-    location: 'Glückstadt',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft in der Gastronomie',
-    postedDate: '2026-03-19'
-  },
-  {
-    id: '12',
-    title: 'Servicekraft in der Gastronomie (m/w/d)',
-    employer: 'dasrößle eG',
-    location: 'Todtnau',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft in der Gastronomie (m/w/d)',
-    postedDate: '2026-03-19'
-  },
-  {
-    id: '13',
-    title: 'Servicekraft Gastronomie',
-    employer: 'Seelounge - Inhaber Matthias Schwedler',
-    location: 'Senftenberg, Niederlausitz',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Servicekraft Gastronomie',
-    postedDate: '2026-03-16'
-  },
-  {
-    id: '14',
-    title: 'Mitarbeiter (m/w/d) Gastronomie',
-    employer: 'Lühmann Tankstellen Betriebs GmbH & Co. KG',
-    location: 'Bad Wildungen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter (m/w/d) Gastronomie',
-    postedDate: '2026-03-16'
-  },
-  {
-    id: '15',
-    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
-    employer: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
-    location: 'Köln',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '16',
-    title: 'Zahnarzt (m/w/d)',
-    employer: 'MeinDentist Berlin GmbH',
-    location: 'Potsdam',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Zahnarzt (m/w/d)',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '17',
-    title: 'Zahnarzt (m/w/d)',
-    employer: 'MeinDentist Berlin GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Zahnarzt (m/w/d)',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '18',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Hannover',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '19',
-    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    employer: 'avs SYSTEM LIFT AGSofort-Bewerbung',
-    location: 'Isernhagen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '20',
-    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
-    employer: 'Medisca GmbH',
-    location: 'Kabelsketal',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
-    postedDate: '2026-03-15'
-  },
-  {
-    id: '21',
-    title: 'Fachkraft für Gastronomie (m/w/d)',
-    employer: 'NGD Norddeutsche Gesellschaft für Diakonie e. V.',
-    location: 'Flensburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie (m/w/d)',
-    postedDate: '2026-03-13'
-  },
-  {
-    id: '22',
-    title: 'Fachkraft für Gastronomie',
-    employer: 'Volkswagen',
-    location: 'Wolfsburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    postedDate: '2026-03-13'
-  },
-  {
-    id: '23',
-    title: 'Fachkraft für Gastronomie',
-    employer: 'Hofmeister',
-    location: 'Ehingen (Donau)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    postedDate: '2026-03-13'
-  },
-  {
-    id: '24',
-    title: 'Fachkraft für Gastronomie',
-    employer: 'Hofmeister',
-    location: 'Bietigheim-Bissingen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    postedDate: '2026-03-13'
-  },
-  {
-    id: '25',
-    title: 'Fachkraft für Gastronomie',
-    employer: 'Hofmeister',
-    location: 'Sindelfingen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Fachkraft für Gastronomie',
-    postedDate: '2026-03-13'
   }
 ];
 
